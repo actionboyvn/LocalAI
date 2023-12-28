@@ -1,0 +1,5 @@
+name: sentence-transformers
+backend: huggingface-embeddings
+embeddings: true
+parameters:
+  model: msmarco-distilbert-base-v4

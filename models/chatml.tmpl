@@ -1,0 +1,1 @@
+{{if eq .RoleName "assistant"}}GPT4 Correct Assistant:{{else if eq .RoleName "system"}}GPT4 Correct System:{{else if eq .RoleName "user"}}GPT4 Correct User:{{end}} {{if .Content}}{{.Content}}{{end}}<|end_of_turn|>
